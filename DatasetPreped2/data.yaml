@@ -1,0 +1,8 @@
+
+train: images\train
+val: images\val
+test: images\test  # Optional, include if test set is available
+
+nc: 2  # Number of classes
+
+names: ['Healthy', 'Diseased']  # Class names
